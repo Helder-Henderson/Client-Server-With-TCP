@@ -21,9 +21,11 @@ namespace TCPClient_form_
 
         private void connect()
         {
+            string IP_HOST = "127.0.0.1";
+            int PORT = 8000;
             tcpClient = new TcpClient();
             setMessage("## Estabelecendo conexão...");
-            tcpClient.Connect("127.0.0.1", 8000);
+            tcpClient.Connect(IP_HOST, PORT);
         }
        
         private void disconnect()
