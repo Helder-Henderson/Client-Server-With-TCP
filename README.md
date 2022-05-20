@@ -8,4 +8,4 @@
 #### Projeto com intenção de mostrar um pouco de como é feito a conexão de um Client a um Server com uso do protocolo TCP.
 #### Atraves desse chat é possivel se connectar a um IP de máquina e enviar datagramas que são lidas e mostradas na tela usando uma TextBox para mostrar as informações
 
-#### Caso queira testar utilizando outra Máquina é necessario mudar a variavel IP_HOST em { TCPClient(form) }, para o ip do HOST que queira conectar
+#### Caso queira testar utilizando outra Máquina é necessario mudar a variavel => IP_HOST em { TCPClient(form)/Form1.cs }, para o ip do HOST que queira conectar ; E também mudar a port caso se faça necessário, variavel => PORT
